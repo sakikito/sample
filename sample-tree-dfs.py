@@ -20,7 +20,7 @@ def make_tree(tree, node, i, n):
         node.right = make_tree(tree, node.right, 2 * i + 2, n)
 
     return node
-
+    
 # 二分木を深さ優先探索で探索する
 # 答えを入れるためのリスト
 ans = []
